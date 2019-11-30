@@ -7,8 +7,11 @@ python版本 2.7
 
 2.在ida/python 中找到 init.py ，打开此初始化脚本，然后拖到最下边 找到 
   from idc      import *
+  
   from idautils import *
+  
   import idaapi
+  
   #在下面加一行 
   import tq
 
