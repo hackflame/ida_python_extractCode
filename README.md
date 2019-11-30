@@ -6,6 +6,7 @@ python版本 2.7
 1.把tq.py 放到ida/python 目录下
 
 2.在ida/python 中找到 init.py ，打开此初始化脚本，然后拖到最下边 找到 
+
   from idc      import *
   
   from idautils import *
@@ -13,6 +14,7 @@ python版本 2.7
   import idaapi
   
   #在下面加一行 
+  
   import tq
 
 3.打开ida测试。快捷键为 ALT+Z
